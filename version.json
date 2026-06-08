@@ -2,5 +2,5 @@
   "versionCode": 2,
   "versionName": "1.1.0",
   "changelog": "• Fitur update di dalam aplikasi\n• Progress bar download\n• Install otomatis setelah download\n• Perbaikan bug",
-  "downloadUrl": "https://github.com/aantonim452-cell/emperor/releases/download/apkupdate/UPDATE.apk"
+  "downloadUrl": "https://raw.githubusercontent.com/aantonim452-cell/emperor/main/UPDATE.apk"
 }
