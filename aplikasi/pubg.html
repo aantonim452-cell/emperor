@@ -1,1 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>PUBG Mobile Mod</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f5f9;
+            padding: 16px;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 20px;
+            margin-bottom: 16px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        .icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 16px;
+            object-fit: cover;
+            margin-bottom: 12px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+        .badge {
+            display: inline-block;
+            background: #6C63FF;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            margin-right: 8px;
+        }
+        .info {
+            margin: 16px 0;
+            padding: 12px 0;
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+        }
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+        }
+        .features {
+            margin: 16px 0;
+            padding-left: 20px;
+        }
+        .features li {
+            margin: 8px 0;
+        }
+        .screenshot {
+            width: 100%;
+            border-radius: 12px;
+            margin-top: 12px;
+        }
+        .download-btn {
+            display: block;
+            background: #6C63FF;
+            color: white;
+            text-align: center;
+            padding: 14px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 16px;
+        }
+        .download-btn:hover {
+            background: #5A52D6;
+        }
+        @media (prefers-color-scheme: dark) {
+            body { background: #121212; }
+            .card { background: #1E1E1E; color: white; }
+            .info { border-color: #333; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <!-- DATA UNTUK APLIKASI (di baca oleh HomeFragment) -->
+            <div id="name">PUBG Mobile Mod</div>
+            <div id="version">2.8.0</div>
+            <div id="size">110 MB</div>
+            <div id="rating">4.8</div>
+            <div id="category">Game</div>
+            <div id="features">Aimbot, Wallhack, No Recoil, Unlimited UC, Auto Headshot, Anti Ban</div>
+            <div id="download">https://github.com/aantonim452-cell/emperor/releases/download/apkupdate/UPDATE.apk</div>
+            <div id="icon">https://images.unsplash.com/photo-1542751371-adc38448a05e?w=200&h=200&fit=crop</div>
+            <div id="screenshot1">https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&h=300&fit=crop</div>
+            <div id="screenshot2">https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?w=600&h=300&fit=crop</div>
+            <div id="screenshot3">https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=600&h=300&fit=crop</div>
 
+            <!-- TAMPILAN VISUAL (yang dilihat user) -->
+            <img class="icon" src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=200&h=200&fit=crop" alt="Icon">
+            <h1>PUBG Mobile Mod</h1>
+            <div>
+                <span class="badge">⭐ 4.8</span>
+                <span class="badge">🔥 Populer</span>
+                <span class="badge">📥 15K+</span>
+            </div>
+            
+            <div class="info">
+                <div class="info-row"><span>📦 Versi</span><span><strong>2.8.0</strong></span></div>
+                <div class="info-row"><span>💾 Ukuran</span><span><strong>110 MB</strong></span></div>
+                <div class="info-row"><span>📅 Update</span><span><strong>08 Juni 2026</strong></span></div>
+            </div>
+            
+            <h3>🎮 Fitur Mod</h3>
+            <ul class="features">
+                <li>✅ Aimbot 100% akurat</li>
+                <li>✅ Wallhack (lihat musuh di balik tembok)</li>
+                <li>✅ No Recoil (tanpa getaran)</li>
+                <li>✅ Unlimited UC (diamonds gratis)</li>
+                <li>✅ Auto Headshot</li>
+                <li>✅ Anti Ban (90% aman)</li>
+            </ul>
+            
+            <h3>📸 Screenshot</h3>
+            <img class="screenshot" src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&h=300&fit=crop" alt="Screenshot 1">
+            <img class="screenshot" src="https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?w=600&h=300&fit=crop" alt="Screenshot 2">
+            
+            <a href="https://github.com/aantonim452-cell/emperor/releases/download/apkupdate/UPDATE.apk" class="download-btn">
+                ⬇️ DOWNLOAD SEKARANG
+            </a>
+            <p style="font-size: 12px; text-align: center; margin-top: 12px; color: #999;">*Pastikan koneksi internet stabil</p>
+        </div>
+    </div>
+</body>
+</html>
