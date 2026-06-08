@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "last_update": "2026-06-08",
+  "apps": [
+    {
+      "id": "pubg",
+      "name": "PUBG Mobile Mod",
+      "category": "Game Mod",
+      "icon_url": "https://raw.githubusercontent.com/aantonim452-cell/emperor/main/images/icons/pubg.jpg",
+      "html_url": "https://aantonim452-cell.github.io/emperor/html/pubg.html",
+      "description": "Aimbot, wallhack, no recoil, unlimited UC",
+      "version": "2.8.0",
+      "size_mb": "110",
+      "rating": 4.8,
+      "download_count": 15234,
+      "is_new": true,
+      "is_popular": true
+    },
+    {
+      "id": "picsart",
+      "name": "PicsArt Mod",
+      "category": "Edit Foto",
+      "icon_url": "https://raw.githubusercontent.com/aantonim452-cell/emperor/main/images/icons/picsart.jpg",
+      "html_url": "https://aantonim452-cell.github.io/emperor/html/picsart.html",
+      "description": "Semua premium unlocked, no watermark",
+      "version": "25.8.1",
+      "size_mb": "65",
+      "rating": 4.9,
+      "download_count": 8900,
+      "is_new": false,
+      "is_popular": true
+    },
+    {
+      "id": "capcut",
+      "name": "CapCut Mod",
+      "category": "Edit Video",
+      "icon_url": "https://raw.githubusercontent.com/aantonim452-cell/emperor/main/images/icons/capcut.jpg",
+      "html_url": "https://aantonim452-cell.github.io/emperor/html/capcut.html",
+      "description": "Semua template pro, no watermark",
+      "version": "12.5.0",
+      "size_mb": "90",
+      "rating": 4.7,
+      "download_count": 6700,
+      "is_new": true,
+      "is_popular": false
+    }
+  ]
+}
