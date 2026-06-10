@@ -10,6 +10,8 @@ on:
 jobs:
   update-list:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -18,13 +20,18 @@ jobs:
         run: |
           cd aplikasi
           echo '{ "apps": [' > list.json
+          first=true
           for file in *.html; do
             if [ -f "$file" ]; then
               name=$(basename "$file" .html)
-              echo "    \"$name\"," >> list.json
+              if [ "$first" = true ]; then
+                echo "    \"$name\"" >> list.json
+                first=false
+              else
+                echo "    ,\"$name\"" >> list.json
+              fi
             fi
           done
-          sed -i '$ s/,//' list.json
           echo '  ]' >> list.json
           echo '}' >> list.json
           cat list.json
