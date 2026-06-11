@@ -1,1 +1,32 @@
-
+{
+  "enabled": true,
+  "ads": [
+    {
+      "id": 1,
+      "title": "Game Gratis Setiap Hari",
+      "description": "Download game premium gratis sekarang!",
+      "image_url": "https://raw.githubusercontent.com/aantonim452-cell/emperor/main/ads/banner1.jpg",
+      "button_text": "Claim",
+      "button_url": "https://example.com/offer1",
+      "bg_color": "#FF9800"
+    },
+    {
+      "id": 2,
+      "title": "Top Up Diamond Murah",
+      "description": "Dapatkan diskon 50% untuk top up diamond",
+      "image_url": "https://raw.githubusercontent.com/aantonim452-cell/emperor/main/ads/banner2.jpg",
+      "button_text": "Beli",
+      "button_url": "https://example.com/offer2",
+      "bg_color": "#2196F3"
+    },
+    {
+      "id": 3,
+      "title": "Emperor Mods Premium",
+      "description": "Akses semua mod tanpa batas!",
+      "image_url": "https://raw.githubusercontent.com/aantonim452-cell/emperor/main/ads/banner3.jpg",
+      "button_text": "Upgrade",
+      "button_url": "https://example.com/offer3",
+      "bg_color": "#4CAF50"
+    }
+  ]
+}
