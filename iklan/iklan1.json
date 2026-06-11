@@ -1,7 +1,7 @@
 {
-  "title": "🎉 PROMO SPESIAL!logo1",
-  "message": "Dapatkan diskon 50% untuk pembelian pertama!\nKode: EMPEROR50",
-  "button_text": "Lihat Detail",
-  "button_url": "https://plaza.com",
-  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk3WWIFj6gDAjVDor96zdFxjZfjfrUbVOez_sT0oHZMw&s=10"
+  "title": "Special Offer!",
+  "message": "Dapatkan diamond gratis untuk FreeFire!",
+  "button_text": "Claim Now",
+  "button_url": "https://example.com/offer",
+  "image_url": "https://raw.githubusercontent.com/aantonim452-cell/emperor/main/ads/offer.jpg"
 }

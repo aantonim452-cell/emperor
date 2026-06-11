@@ -1,6 +1,7 @@
 {
-  "title": "🎉 PROMO SPESIAL!2",
-  "message": "Dapatkan diskon 50% untuk pembelian pertama!\nKode: EMPEROR50",
-  "button_text": "Lihat Detail",
-  "button_url": "https://plaza.com"
+  "title": "Update Tersedia!",
+  "message": "Versi baru Emperor Mods sudah rilis dengan fitur lebih keren!",
+  "button_text": "Update Sekarang",
+  "button_url": "https://github.com/aantonim452-cell/emperor/releases",
+  "image_url": "https://raw.githubusercontent.com/aantonim452-cell/emperor/main/ads/update.jpg"
 }
