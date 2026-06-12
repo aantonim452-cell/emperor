@@ -1,144 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>PUBG Mod</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            background-color: #F9FAFB;
-            color: #111827;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            padding: 16px;
-            line-height: 1.5;
-        }
-        
-        body.dark-mode {
-            background-color: #0F172A;
-            color: #F8FAFC;
-        }
-        
-        body.dark-mode div {
-            color: #F8FAFC;
-        }
-        
-        body.dark-mode #name {
-            color: #F8FAFC;
-        }
-        
-        body.dark-mode #features {
-            color: #94A3B8;
-        }
-        
-        body.dark-mode #description {
-            color: #94A3B8;
-        }
-        
-        body.dark-mode #version, 
-        body.dark-mode #size, 
-        body.dark-mode #rating {
-            color: #94A3B8;
-        }
-        
-        body.dark-mode #features {
-            background-color: #1E293B;
-        }
-        
-        body.dark-mode .divider {
-            background-color: #334155;
-        }
-        
-        @media (prefers-color-scheme: dark) {
-            body {
-                background-color: #0F172A;
-                color: #F8FAFC;
-            }
-            div {
-                color: #F8FAFC;
-            }
-            #name {
-                color: #F8FAFC;
-            }
-            #features, #description, #version, #size, #rating {
-                color: #94A3B8;
-            }
-            #features {
-                background-color: #1E293B;
-            }
-            .divider {
-                background-color: #334155;
-            }
-        }
-        
-        #name {
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 8px;
-        }
-        
-        #version, #size, #rating {
-            font-size: 14px;
-            margin-bottom: 4px;
-        }
-        
-        #features {
-            background-color: #F3F4F6;
-            padding: 12px;
-            border-radius: 12px;
-            margin: 16px 0;
-            font-size: 13px;
-        }
-        
-        #description {
-            font-size: 13px;
-            margin-bottom: 16px;
-        }
-        
-        .divider {
-            height: 1px;
-            background-color: #E5E7EB;
-            margin: 16px 0;
-        }
-    </style>
+    <title>pubg</title>
 </head>
 <body>
-    <div id="name">PUBG Mod v5</div>
-    <div id="version">Version: 2.8.0</div>
-    <div id="size">Size: 210 MB</div>
-    <div id="rating">Rating: 4.8 ⭐</div>
-    <div class="divider"></div>
-    <div id="features">🔥 FITUR MOD<br>✅ Aimbot 101% akurat<br>✅ Wallhack (lihat musuh)<br>✅ No Recoil<br>✅ Unlimited UC<br>✅ Anti Ban</div>
-    <div id="description">PUBG Mobile Mod adalah versi modifikasi dari game PUBG Mobile dengan berbagai fitur premium gratis. Dapatkan pengalaman bermain yang lebih seru dengan aimbot, wallhack, dan unlimited UC!</div>
-    <div id="download">file:pubg.apk</div>
-    <div id="icon">https://raw.githubusercontent.com/aantonim452-cell/emperor/main/icons/pubg.png</div>
-    <div id="screenshots">https://raw.githubusercontent.com/aantonim452-cell/emperor/main/screenshots/pubg1.jpg,https://raw.githubusercontent.com/aantonim452-cell/emperor/main/screenshots/pubg2.jpg</div>
+    <div id="name">pubg mobile</div>
+    <div id="version">4.8.0</div>
+    <div id="size">210 MB</div>
+    <div id="rating">4.9</div>
+    <div id="category">Game</div>
+    <div id="features">Unlimited Primogems, Infinite Stamina, One Hit Kill, God Mode, Auto Loot, Anti Ban</div>
+    <div id="description">Genshin Impact Mod dengan unlimited primogems dan fitur premium gratis! Dapatkan semua karakter dan senjata tanpa batas.</div>
+    <div id="download">file:genshin.apk</div>
+    <div id="icon">https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRigBhNKafElmmfHhWgPTn5soWioIl0seEFhaJT1KYQKQ&s</div>
+    <div id="screenshots">https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZJez2qyWe9DwWHUYBopAD_qpBdoFHLJUc1he1n1q70Q&s=10,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThlDGmqCVgsLMCH56IXq04kp4mInFIyoTRIjpmNgIcPYyqzZSjyO8XJFbo&s=10</div>
     <div id="maintenance">false</div>
-    
-    <script>
-        // Deteksi dark mode dari preferensi sistem
-        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            document.body.classList.add('dark-mode');
-        }
-        
-        // Deteksi dari URL parameter
-        const urlParams = new URLSearchParams(window.location.search);
-        if (urlParams.get('dark') === '1') {
-            document.body.classList.add('dark-mode');
-        }
-        
-        // Listen for changes
-        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
-            if (e.matches) {
-                document.body.classList.add('dark-mode');
-            } else {
-                document.body.classList.remove('dark-mode');
-            }
-        });
-    </script>
 </body>
 </html>
